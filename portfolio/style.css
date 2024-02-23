@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.container {
+}
+
+.header {
+}
+.header-photo {
+}
+.intro {
+}
+
+.skills {
+}
+
+.skill-list {
+}
+
+.hobbies {
+}
+
+.hobby-list {
+}
+
+.social {
+}
+/*
+  .skill-list li {
+  }
+  
+ column {
+  } 
+  */
+
+.footer {
+}
