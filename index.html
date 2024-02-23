@@ -1,0 +1,171 @@
+<!-- 
+    HTML - HyperText Markup Language 
+        -- provides the backbone / structure of the website.
+
+      HTML Tag -- defines the elements on a webpage.
+    
+      Attributes -- provide additional information about HTML elements
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Practice</title>
+  </head>
+
+  <body>
+    <p>
+      <!-- opening tag -->
+      HTML Practice
+      <!-- content -->
+    </p>
+    <!-- closing tag -->
+
+    <hr />
+
+    <!-- HEADING -->
+    <h1>This is Heading 1.</h1>
+    <h2>This is Heading 2.</h2>
+    <h3>This is Heading 3.</h3>
+    <h4>This is Heading 4.</h4>
+    <h5>This is Heading 5.</h5>
+    <h6>This is Heading 6.</h6>
+
+    <br />
+    <strong><a id="section1"> This is the anchor point, Jump here.</a> </strong>
+
+    <hr />
+    <!-- Inserting a horizontal rule -->
+    <p>This is a paragraph. This is the first line. This is the second line.</p>
+
+    <!-- Inserting <br/> for line breaks -->
+    <p>
+      This is a paragraph. <br />
+      This is the first line. <br />
+      This is the second line.
+    </p>
+
+    <hr />
+
+    <!-- Text Styling -->
+    <p>This is an <strong> important </strong> text.</p>
+    <p>This text is <em> emphasized</em>.</p>
+    <p>This text is <u> underlined </u>.</p>
+    <p>This text is <s> no longer valid</s>.</p>
+    <p>H<sub>2</sub>O is the chemical formula for water.</p>
+    <p>The speed of light is approximately 3 x 10<sup>8</sup> m/s.</p>
+
+    <b> Bold text. </b>
+
+    <hr />
+
+    <h2>Unordered List</h2>
+    <ol>
+      <li>This is the first item</li>
+      <li>This is the second item</li>
+      <li>This is the third item</li>
+    </ol>
+
+    <h2>Definition Llist</h2>
+    <dl>
+      <!-- Definition List - provides the definition of a certain term-->
+      <dt>
+        <!--Definition Term - marks the term to be defined-->
+        HTML
+      </dt>
+      <dd>
+        <!--Definition Description - provides the definition for the term in <dt>-->
+        HyperText Markup Langugage
+      </dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheet</dd>
+    </dl>
+
+    <h2>Nested List</h2>
+    <ul>
+      <li>List Item 1</li>
+      <li>List item 2</li>
+      <ol>
+        <li>Subitem 1</li>
+        <li>Subitem 2</li>
+      </ol>
+      <li>List item 3</li>
+    </ul>
+
+    <!--Links and Anchors-->
+
+    <!--This is a paragraph with a link to an external website-->
+    <p>
+      Go to this page:
+      <a href="https:www.example.com"> Visit Example Website</a>
+    </p>
+
+    <!--This is a paragraph with a link to an external website, but set to open in a new tab-->
+    <p>
+      Open link in a new tab:
+      <a href="https://www.example.com" target="_blank">
+        Visot Exaample in a new tab</a
+      >
+    </p>
+
+    <!--Creating anchor points within a page using the <a> tag -->
+    <h4>Sample Page Content</h4>
+    <p>This is some content on a page</p>
+
+    <!--Creat the anchor point-->
+
+    <h3>Section 1</h3>
+    <p>This is the content of Section 1</p>
+
+    <!--Creating a link to the anchor-->
+    <a href="#section1"> Jump to Section 1.</a>
+
+    <p>More content here...</p>
+
+    <!--Forms-->
+    <form>
+      <h2>Form Example</h2>
+      <!-- Text Input -->
+      <label for="name"> Name: </label>
+      <input type="text" id="name" required />
+
+      <br />
+      <!-- Text Area -->
+      <label for="message"> Message: </label>
+      <textarea
+        id="message"
+        rows="4"
+        cols="50"
+        placeholder="Enter message here"
+        required
+      >
+      </textarea>
+
+      <br />
+      <!-- Dropdown Menu -->
+      <label for="gender">Gender: </label>
+      <select id="gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      <br />
+      <!-- Radio Buttons -->
+      <input type="radio" id="option1" name="options" />
+      <label for="option1"> Option 1 </label>
+      <input type="radio" id="option2" name="options" />
+      <label for="option2"> Option 2 </label>
+      <input type="radio" id="option3" name="options" />
+      <label for="option3"> Option 3 </label>
+      <br />
+      <!-- Checkboxes -->
+      <input type="checkbox" id="check1" name="checkboxes" />
+      <label for="check1"> Check 1</label>
+      <input type="checkbox" id="check2" name="checkboxes" />
+      <label for="check2"> Check 2</label>
+
+      <br />
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
