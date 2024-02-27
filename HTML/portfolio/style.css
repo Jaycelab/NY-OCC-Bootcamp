@@ -3,17 +3,46 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: whitesmoke;
+  background: linear-gradient(300deg, #ffffff, rgba(255, 255, 255, 0.945), #da7f36);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
 }
 
-.container {
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
+body {
+  font-family: "Nanum Brush Script", cursive, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7em;
+  
+}
+
+/*git 
+.container {
+}*/
 
 .header {
+  margin-top: 10px;
+  padding:0;
+  font-size: 2em;
 }
 .header-photo {
+  height: 100%;
+  max-width: 400px;
+  border-radius: 50%;
 }
-.intro {
+.intro h2 {
+  margin-top
 }
 
 .skills {

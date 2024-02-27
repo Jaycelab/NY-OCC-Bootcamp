@@ -11,3 +11,10 @@ Example:
 
 Opening Tag  Attribute   Declaration
 <h1          style =     "color: red";>
+
+CSS Box Model
+- The box model is the basis for layout and design in CSS. It consists of four components.
+Margin- Space outside the edge of the element
+Border - The thickness and style of the border surrounding the content area and padding
+Padding - Space between the content area and the border
+Content - The actual elements content

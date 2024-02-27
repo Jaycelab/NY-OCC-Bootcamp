@@ -1,1 +1,4 @@
 # OCC-NY FRONT END BOOTCAMP
+
+Week 1: HTML 
+Week 2: CSS
