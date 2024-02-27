@@ -1,0 +1,13 @@
+Selector - the beginning of the ruleset used to poiont to the HTMl element you want to style.
+
+Declaration Block - contains the CSS declarations inside the curly braces({}). Semicolon(;) is used to seperate more than one declaration
+
+Declaration - used to apply styles to elements selected by seelctors. It consits of a proerty and its corresponding value, forming a key-value pair, sepearted by a colon and ends with semicolon(;).
+[property-name: value;]
+    Property - signifies what visual characteristic of the elmeent is to be modified.
+    Value - signifies the value of the property
+
+Example:
+
+Opening Tag  Attribute   Declaration
+<h1          style =     "color: red";>
