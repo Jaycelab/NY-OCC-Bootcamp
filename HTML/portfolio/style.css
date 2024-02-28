@@ -46,17 +46,16 @@ body {
 
 .fa-solid {
   color: rgb(223, 121, 38);
-
   padding-left: 2px;
 }
 
 a {
-  color: rgb(46, 45, 44);
+  color: rgb(8, 8, 8);
   text-decoration: none;
 }
 
 a:hover {
-  color: grey;
+  color: rgb(255, 255, 255);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(255, 150, 52);
