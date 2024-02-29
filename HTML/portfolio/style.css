@@ -35,13 +35,17 @@ body {
 }
 
 .header {
-  margin-top: 5px;
+  margin-top: 15px;
   font-size: 2em;
 }
 .header-photo {
   height: 100%;
-  width: 400px;
+  max-width: 200px;
   border-radius: 50%;
+}
+
+h2 {
+  margin-bottom: 15px;
 }
 
 .fa-solid {
@@ -61,6 +65,17 @@ a:hover {
   text-decoration-color: rgb(255, 150, 52);
 }
 
+.container {
+  max-width: 900px;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
 /* social  {
  
 }
