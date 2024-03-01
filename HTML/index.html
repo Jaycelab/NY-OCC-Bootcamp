@@ -32,10 +32,12 @@
     <h6>This is Heading 6.</h6>
 
     <br />
-    <strong><a id="section1"> This is the anchor point, Jump here.</a> </strong>
-
+    <strong>
+      <a id="section1"> This is the anchor point. Jump here. </a>
+    </strong>
     <hr />
     <!-- Inserting a horizontal rule -->
+
     <p>This is a paragraph. This is the first line. This is the second line.</p>
 
     <!-- Inserting <br/> for line breaks -->
@@ -59,23 +61,31 @@
 
     <hr />
 
+    <!-- Lists -->
     <h2>Unordered List</h2>
+    <ul>
+      <li>This is the first unordered list item.</li>
+      <li>This is the second unordered list item.</li>
+      <li>This is the third unordered list item.</li>
+    </ul>
+
+    <h2>Ordered List</h2>
     <ol>
-      <li>This is the first item</li>
-      <li>This is the second item</li>
-      <li>This is the third item</li>
+      <li>This is the first item.</li>
+      <li>This is the second item.</li>
+      <li>This is the third item.</li>
     </ol>
 
-    <h2>Definition Llist</h2>
+    <h2>Definition List</h2>
     <dl>
-      <!-- Definition List - provides the definition of a certain term-->
+      <!-- Definition List - provides the Definition of a certain term -->
       <dt>
-        <!--Definition Term - marks the term to be defined-->
+        <!-- Definition Term - marks the term to be defined -->
         HTML
       </dt>
       <dd>
-        <!--Definition Description - provides the definition for the term in <dt>-->
-        HyperText Markup Langugage
+        <!-- Definition Description - provided the definition for the term in <dt> -->
+        HyperText Markup Language
       </dd>
       <dt>CSS</dt>
       <dd>Cascading Style Sheet</dd>
@@ -83,7 +93,7 @@
 
     <h2>Nested List</h2>
     <ul>
-      <li>List Item 1</li>
+      <li>List item 1</li>
       <li>List item 2</li>
       <ol>
         <li>Subitem 1</li>
@@ -92,37 +102,41 @@
       <li>List item 3</li>
     </ul>
 
-    <!--Links and Anchors-->
+    <hr />
+    <!-- Links and Anchors -->
 
-    <!--This is a paragraph with a link to an external website-->
+    <!-- This is a paragraph with a link to an external website -->
     <p>
       Go to this page:
-      <a href="https:www.example.com"> Visit Example Website</a>
+      <a href="https://www.example.com"> Visit Example Website </a>
     </p>
 
-    <!--This is a paragraph with a link to an external website, but set to open in a new tab-->
+    <!-- This is a paragraph with a link to an external website, but set to open in a new tab -->
     <p>
       Open link in a new tab:
       <a href="https://www.example.com" target="_blank">
-        Visot Exaample in a new tab</a
-      >
+        Visit Example website in a new tabß
+      </a>
     </p>
 
-    <!--Creating anchor points within a page using the <a> tag -->
+    <!-- Creating anchor points within a page using the <a> tag -->
     <h4>Sample Page Content</h4>
-    <p>This is some content on a page</p>
+    <p>This is some content on a page.</p>
 
-    <!--Creat the anchor point-->
+    <!-- Create the anchor point -->
+    <!-- <a id="section1"> This is the anchor point. Jump here. </a> -->
 
     <h3>Section 1</h3>
     <p>This is the content of Section 1</p>
 
-    <!--Creating a link to the anchor-->
-    <a href="#section1"> Jump to Section 1.</a>
+    <!-- Creating a link to the anchor -->
+    <a href="#section1"> Jump to Section 1. </a>
 
     <p>More content here...</p>
 
-    <!--Forms-->
+    <hr />
+
+    <!-- Forms -->
     <form>
       <h2>Form Example</h2>
       <!-- Text Input -->
@@ -148,6 +162,7 @@
         <option>Male</option>
         <option>Female</option>
       </select>
+
       <br />
       <!-- Radio Buttons -->
       <input type="radio" id="option1" name="options" />

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Header Styling */
+      header {
+        background-color: #333;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #ffffff;
+        margin: 0;
+      }
+
+      /* Section Styling */
+      section {
+        padding: 50px;
+        background-color: #f1f1f1;
+      }
+
+      /* Footer Styling */
+      footer {
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+      }
+
+      footer p {
+        color: #ffffff;
+        font-size: 12px;
+        margin: 0;
+      }
+
+      /* Media Queries */
+
+      /* Laptops or Small Screens */
+      @media screen and (max-width: 1024px) {
+        footer p {
+          color: #fcf400;
+          padding: 2.5px;
+        }
+      }
+
+      /* Laptops or Small Screens */
+      @media screen and (max-width: 1024px) {
+        footer p {
+          color: #00ff33;
+          padding: 5px;
+        }
+      }
+
+      /* iPads or Tablets */
+      @media screen and (max-width: 768px) {
+        footer p {
+          color: #0099ff;
+          padding: 10px;
+        }
+      }
+
+      /* Mobile Devices */
+      @media screen and (max-width: 481px) {
+        footer p {
+          color: red;
+          padding: 20px;
+        }
+
+        section {
+          background-color: #fcf400;
+        }
+      }
+
+      /* 
+            Screen Size BREAKPOINTS
+            < 481px = Mobile devices
+            481px — 768px = iPads, Tablets
+            769px — 1024px = Small screens, laptops
+            1025px — 1200px = Desktops, large screens
+            1201px and greater = Extra large screens, TV
+        */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Responsive Design Example</h1>
+    </header>
+    <section>
+      <h2>Content Section</h2>
+      <p>This is an example of a responsive web page.</p>
+    </section>
+    <footer>
+      <p>&copy; 2023 Responsive Design Example. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

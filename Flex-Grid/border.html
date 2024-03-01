@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border (Box Model Example 2)</title>
+    <style>
+        h3 {
+            width: 300px;
+            height: 120px;
+            background-color: grey;
+            padding: 15px;
+            border: 3px solid #00eaff;
+        }
+
+        .mix-borders {
+            border-style: dotted dashed solid double;
+            border-radius: 10px;
+        }
+
+        .my-parag {
+            padding: 10px;
+            border-bottom-style: outset;
+        }
+        
+        .circle-container {
+            height: 60px;
+            width: 60px;
+            /* top and right, bottom and left */
+            border-style: inset outset;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3> CSS Borders </h3>
+    </div>
+
+    <div class="mix-borders">
+        <p class="my-parag"> This is a paragraph.</p>
+    </div>
+
+    <div class="circle-container">
+        <h2> Hi! </h2>
+    </div>
+</body>
+</html>

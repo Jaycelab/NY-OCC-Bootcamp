@@ -3,10 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Basics</title>
     <link rel="stylesheet" href="style.css" />
+    <title>CSS Basics</title>
+
+    <style>
+      p {
+        color: red;
+      }
+    </style>
   </head>
   <body>
-    <p class="parag1">This a CSS pargraph</p>
+    <!-- ORDER OF PRIORITY:
+        1. Inline CSS
+        2. Internal CSS
+        3. External CSS
+    -->
+
+    <p class="parag1">This is a paragraph with external styling.</p>
+
+    <p style="color: green">This is a paragraph with internal styling.</p>
+
+    <p style="color: green">This is a paragraph with inline styling.</p>
+
+    <h1 id="header">This is an example of a header.</h1>
+
+    <p class="parag1">This paragraph has the same classname.</p>
+
+    <a href="www.example1.com"> Example link </a>
+    <br />
+    <a href="www.example.com"> Example link 2 </a>
+
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <p>This is a link <a href="www.example.com"> Hover over me. </a></p>
   </body>
 </html>

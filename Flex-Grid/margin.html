@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin (Box Model Example 3)</title>
+    <style>
+      /*      
+            4 value margin: top, right, bottom, left
+            3 value margin: top, right and left, bottom
+            2 value margin: top and bottom (y-axis), left and right (x-axis)
+            1 value margin: all sides
+        */
+      h3 {
+        width: 300px;
+        height: 120px;
+        background-color: grey;
+        margin: 20px;
+      }
+
+      .box {
+        border-style: dotted dashed;
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>This uses the margin shorthand.</h3>
+    </div>
+
+    <div class="box">
+      <p>This is a paragraph.</p>
+    </div>
+  </body>
+</html>
