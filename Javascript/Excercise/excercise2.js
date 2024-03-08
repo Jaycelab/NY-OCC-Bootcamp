@@ -36,4 +36,6 @@ div = (num1, num2) => {
 
 calc(5, 6, mul);
 
+
+//Bonus
 let applyFunction = (func, arr) => {};

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <h1>Contact Form</h1>
+      <p>Get in contact to avail of my services!</p>
+
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" placeholder="Your name" />
+      <span id="nameError" style="color: red"></span>
+
+      <br />
+
+      <label for="email">Email: </label>
+      <input type="text" name="email" id="email" placeholder="Your email" />
+      <span id="emailError" style="color: red"></span>
+
+      <br />
+
+      <textarea
+        name="question"
+        id="question"
+        cols="30"
+        rows="10"
+        placeholder="What would you like to inquire about?"
+      ></textarea>
+      <span id="questionError" style="color: red"></span>
+      <br />
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+    <script src="form.js"></script>
+  </body>
+</html>
