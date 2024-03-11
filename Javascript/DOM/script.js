@@ -7,16 +7,17 @@ let headingElement = document.getElementById("heading");
 console.log("Element by ID:", headingElement);
 
 // Get elements by class name
-var textElements = document.getElementsByClassName("text");
+let textElements = document.getElementsByClassName("text");
 console.log("Elements by Class Name:", textElements);
 
 // Get elements by tag name
-var listItems = document.getElementsByTagName("li");
+let listItems = document.getElementsByTagName("li");
 console.log("Elements by Tag Name:", listItems);
 
 /*
   Modern Version
 */
+
 // Query selector - getting the first occurence
 let containerElement = document.querySelector("#container");
 console.log("Query Selector:", containerElement);
@@ -75,10 +76,15 @@ let imageElement = document.getElementsByTagName("img")[0];
 imageElement.setAttribute("id", "funnyImage");
 imageElement.setAttribute("src", "image.jpg");
 console.log("Image Element with Attribute:", imageElement);
+
 // Modify styles
 let btnElement = document.getElementById("btn");
 btnElement.style.backgroundColor = "lightblue";
 console.log("Modified Style:", btnElement.style);
+
+/*
+  Creating Elements
+*/
 
 // Create Element
 let newParagraph = document.createElement("p");
@@ -86,7 +92,7 @@ newParagraph.textContent = "This is a new paragraph.";
 newParagraph.setAttribute("class", "text");
 containerElement.appendChild(newParagraph);
 console.log("Appended Element:", newParagraph);
-listContainer.appendChild(elementToRemove);
+
 /*
   Removing Elements
 */

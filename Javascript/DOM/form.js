@@ -25,6 +25,7 @@ function handleSubmit(e) {
     form.reset();
   }
 }
+
 function validateForm() {
   const nameValue = nameInput.value.trim();
   const emailValue = emailInput.value.trim();
